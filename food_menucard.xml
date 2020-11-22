@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE food_menu[
+<!ELEMENT food_menu (food)>
+<!ELEMENT food (name, price, description, calories)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT calories (#PCDATA)>
+]>
+
+<?xml-stylesheet type="text/xsl" href="food.xsl"?>
+
+<food_menu>
+    <food>
+        <name>Hawaiian Breakfast</name>
+        <price>$5.95</price>
+        <description>Lorem ipsum dolor sit,consectetuer adipiscing.</description>
+        <calories>350</calories>
+    </food>
+
+    <food>
+        <name>Bacon and Egg Breakfast</name>
+        <price>$7.95</price>
+        <description>Lorem ipsum dolor sit,consectetuer adipiscing.</description>
+        <calories>450</calories>
+    </food>
+
+    <food>
+        <name>Ham and Cheese Breakfast</name>
+        <price>$8.95</price>
+        <description>Lorem ipsum dolor sit,consectetuer adipiscing.</description>
+        <calories>400</calories>
+    </food>
+    
+    <food>
+        <name>Spicy Thai Chicken Lunch</name>
+        <price>$4.50</price>
+        <description>Lorem ipsum dolor sit,consectetuer adipiscing.</description>
+        <calories>600</calories>
+    </food>
+
+    <food>
+        <name>Sweet and Sour Beef Soup Lunch</name>
+        <price>$6.95</price>
+        <description>Lorem ipsum dolor sit,consectetuer adipiscing.</description>
+        <calories>950</calories>
+    </food>
+
+    <food>
+        <name>Pulled Beef Barbecue Burger</name>
+        <price>$6.95</price>
+        <description>Lorem ipsum dolor sit,consectetuer adipiscing.</description>
+        <calories>750</calories>
+    </food>
+    
+
+    <food>
+        <name>Spicy Thai Chicken Dinner</name>
+        <price>$12.15</price>
+        <description>Lorem ipsum dolor sit,consectetuer adipiscing.</description>
+        <calories>1000</calories>
+    </food>
+
+    <food>
+        <name>Suffed Lobster Tail</name>
+        <price>$10</price>
+        <description>Lorem ipsum dolor sit,consectetuer adipiscing.</description>
+        <calories>950</calories>
+    </food>
+
+    <food>
+        <name>Mandarin Chicken Salad with Crispy Noodles</name>
+        <price>$12.95</price>
+        <description>Lorem ipsum dolor sit,consectetuer adipiscing.</description>
+        <calories>930</calories>
+    </food>
+</food_menu>
